@@ -1,60 +1,57 @@
+From Umair Arshad ✔ to Everyone:  11:20 PM
+https://www.marinaratimer.com/0lN6l
+From Umair Arshad ✔ to Everyone:  11:29 PM
 
 body {
     background: #ffffff;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background: inherit;
     width: 100%;
-    display: inline-block;
-    height: 50px;
-}
+    height: 33px;
 
-.logodiv {
-    position: relative;
-    top: 8px;
-    display: inline;
 }
-.logo-img {
-    margin-top: 0px;
-    margin-left: 70px;
-}
-nav {
+.navbar {
     width: 100%;
 }
-
-.search_form {
-    display: inline-block;
+.logo {
+    float: left;
+    overflow: auto;
     margin-left: 70px;
-    height: inherit;
 }
-.search {
-    width: 700px;
-    height: 30px;
-    margin: 0px;
-    border: 1px solid gray;
+.submit_button {
+    float: right;
+    overflow: auto;
+    height: 25px;
+    margin-right: 4px;
+    margin-top: 6px;
+}
+.search_tab{
+    width: 55%;
+    height: 27px;
+    margin-top: 1px;
+    margin-left: 40px;
+    border: 1px solid grey;
     border-right: none;
 }
- input[type=text] {
-    padding: 3px;
-    margin-top: 8px;
-    font-size: 17px;
-}
-.search-button {
-    margin-left: -5px;
-    margin-top: 10px;
-    height: 38px;
+.search_button {
+    position: relative;
+    
     width: 100px;
-    border: 1px solid gray;
+    height: 31px;
+    margin-left: -5px;
+
+}
+.logo_image{
+    height: 33px;
+    margin-right: 28px;
+    width: 100px;
+}
+.search_icon{
+    height: 27px;
+    margin: -9px -3px -9px;
+}
+.avatar{
+    height: 21px;
 }
 
-.sign-in {
-    margin-left: 200px;
-    height: 35px;
-    width: 70px;
-    background: dodgerblue;
-    border: 1px solid dodgerblue;
-    border-radius: 3px;
-}
