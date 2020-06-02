@@ -1,0 +1,22 @@
+
+body {
+    background: #ffffff;
+}
+
+header {
+    background: black;
+    width: 100%;
+
+}
+.navbar {
+    width: 100%;
+}
+.logo {
+    float: left;
+    overflow: auto;
+}
+.submit_button {
+    float: right;
+    overflow: auto;
+}
+
