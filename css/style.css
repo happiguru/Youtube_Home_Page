@@ -1,6 +1,4 @@
-From Umair Arshad ✔ to Everyone:  11:20 PM
-https://www.marinaratimer.com/0lN6l
-From Umair Arshad ✔ to Everyone:  11:29 PM
+
 
 body {
     background: #ffffff;
@@ -10,6 +8,12 @@ header {
     width: 100%;
     height: 33px;
 
+}
+section{
+    display: flex;
+}
+span{
+    margin-left: 223px;
 }
 .navbar {
     width: 100%;
@@ -54,4 +58,7 @@ header {
 .avatar{
     height: 21px;
 }
-
+.sidebar{
+    width: 200px;
+    height: 200px;
+}
