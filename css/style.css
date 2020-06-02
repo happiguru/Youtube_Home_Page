@@ -10,7 +10,11 @@ header {
 
 }
 section{
+    width: 60%;
+    float: left;
     display: flex;
+    margin-left: -150px;
+    margin-top: 50px;
 }
 span{
     margin-left: 223px;
@@ -58,7 +62,20 @@ span{
 .avatar{
     height: 21px;
 }
-.sidebar{
-    width: 200px;
-    height: 200px;
+
+aside {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 50px;
 }
+
+article {
+    display: inline-flex;
+    margin: 10px 2px 0px 2px;
+}
+article p {
+    padding-left: 10px;
+}
+
