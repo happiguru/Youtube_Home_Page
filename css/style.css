@@ -2,19 +2,24 @@
 
 body {
     background: #ffffff;
+    border: 1px solid black;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     width: 100%;
     height: 33px;
-
+    margin-top: 10px;
+    border: 1px solid black;
 }
 section{
     width: 60%;
     float: left;
     display: flex;
     margin-left: -150px;
-    margin-top: 50px;
+    margin-top: 40px;
+    border: 1px solid black;
 }
 span{
     margin-left: 44%;
@@ -25,7 +30,7 @@ span{
 .logo {
     float: left;
     overflow: auto;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .submit_button {
     float: right;
@@ -48,7 +53,9 @@ span{
     width: 100px;
     height: 31px;
     margin-left: -5px;
-
+}
+.search_bar{
+    margin-right: 40px;
 }
 .subscribe{
     display: flex;
@@ -73,11 +80,20 @@ span{
 aside 
     {
         display: inline-block;
-        width: 30%;
+        width: 33%;
         height: auto;
-        margin-right: 50px;
-        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-top: 40px;
+        border: 1px solid black;
     }
+.sidebar-para {
+    margin-top: 0px;
+}
+
+video {
+    margin-left: 50px;
+}
 
 article 
     {
@@ -86,5 +102,17 @@ article
     }
 article div {
     padding-left: 10px;
+}
+.fa {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.subscribenow {
+    background: red;
+    color: white;
+}
+
+.side-anchor {
+    text-decoration: none;
 }
 
