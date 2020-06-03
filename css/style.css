@@ -138,6 +138,7 @@ article div {
 
 .side-anchor {
     text-decoration: none;
+    color: #383333;
 }
 
 .vid-info p{
@@ -163,15 +164,26 @@ article div {
   text-align: right;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body {
       background-color: lightblue;
     }
     section {
         width: 100%;
+        margin-left: 12px;
     }
     aside {
         width: auto;
         margin-top: 60%;
+        margin-left: 15%;
+    }
+  }
+
+
+  @media screen and (max-width: 925px) and (min-width: 700px) {
+    aside {
+        width: auto;
+        margin-top: 50%;
+        margin-left: 15%;
     }
   }
