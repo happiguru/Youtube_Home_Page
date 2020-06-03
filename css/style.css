@@ -17,7 +17,7 @@ section{
     width: 60%;
     float: left;
     display: flex;
-    margin-left: -150px;
+    margin-left: -112px;
     margin-top: 40px;
     border: 1px solid black;
 }
@@ -57,12 +57,25 @@ span{
 .search_bar{
     margin-right: 40px;
 }
-.subscribe{
+/* .subscribe{
     display: flex;
 }
 .subscribe span{
     margin-top: 21px;
     margin-left: 52%;
+} */
+
+.subscribe{
+    position: relative;
+}
+.subscribe span{
+    margin-left: 0%;
+}
+.subscribe img{
+    width: 50px;
+}
+.subscribe .right{
+    margin-top: 19px;
 }
 .logo_image{
     height: 33px;
@@ -80,7 +93,7 @@ span{
 aside 
     {
         display: inline-block;
-        width: 33%;
+        width: 30%;
         height: auto;
         margin-right: 10px;
         margin-left: 5px;
@@ -116,3 +129,25 @@ article div {
     text-decoration: none;
 }
 
+.vid-info p{
+    position: relative;
+}
+.vid-info p span{
+    margin-left: 0%;
+}
+
+.left{
+    position: absolute;
+    display: flex;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: left;
+}
+.right{
+    position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: right;
+}
