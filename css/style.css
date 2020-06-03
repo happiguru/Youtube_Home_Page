@@ -59,23 +59,25 @@ span{
     height: 27px;
     margin: -9px -3px -9px;
 }
-.avatar{
+.avatar {
     height: 21px;
 }
 
-aside {
-    display: inline-block;
-    width: 30%;
-    height: auto;
-    margin-right: 50px;
-    margin-top: 50px;
-}
+aside 
+    {
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
 
-article {
-    display: inline-flex;
-    margin: 10px 2px 0px 2px;
-}
-article p {
+article 
+    {
+        display: inline-flex;
+        margin: 10px 2px 0px 2px;
+    }
+article div {
     padding-left: 10px;
 }
 
