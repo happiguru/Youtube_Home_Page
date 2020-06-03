@@ -17,7 +17,7 @@ section{
     margin-top: 50px;
 }
 span{
-    margin-left: 56%;
+    margin-left: 44%;
 }
 .navbar {
     width: 100%;
@@ -49,6 +49,13 @@ span{
     height: 31px;
     margin-left: -5px;
 
+}
+.subscribe{
+    display: flex;
+}
+.subscribe span{
+    margin-top: 21px;
+    margin-left: 52%;
 }
 .logo_image{
     height: 33px;

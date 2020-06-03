@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <title>YouTube Homepage</title>
+        <meta charset="utf-8" />
+
+        <!-- custome css file-->
         <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        
+        <!-- Font awesom CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
     </head>
     <body>
         <!-- HEADER STARTS HERE-->
         <header>
-            <div class="navbar">
-                <div class="logo"><img class="logo_image" src="images/youTubeLogo.png" alt="youtube_logo" /></div>
-                <div class="search_bar">
-                    <input type="text" name="search" class="search_tab" placeholder="Search" /> <button class="search_button" type="submit">Search</button>
-                    <div class="submit_button">
-                        <img class="avatar" src="images/camera.png" alt="Search" /> <img class="avatar" src="images/notification.png" alt="Search" /> <img class="avatar" src="images/userLogo.png" alt="Search" />
+            <nav>
+                <div class="navbar">
+                    <div class="logo"><img class="logo_image" src="img/youTubeLogo.png" alt="youtube_logo" /></div>
+                    <div class="search_bar">
+                        <input type="text" name="search" class="search_tab" placeholder="Search" /> <button class="search_button" type="submit">Search</button>
+                        <div class="submit_button"><img class="avatar" src="img/camera.png" alt="Search" /> <img class="avatar" src="img/notification.png" alt="Search" /> <img class="avatar" src="img/userLogo.png" alt="Search" /></div>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <!-- HEADER SECTION END HERE-->
 
@@ -24,26 +31,28 @@
         <section class="video-info">
             <div class="vid-info">
                 <video width="100%" height="60%" controls>
-                    <source src="video.mp4" type="video/mp4">
-                    <source src="video.ogg" type="video/ogg">
+                    <!-- media types of video-->
+                    <source src="video.mp4" type="video/mp4" />
+                    <source src="video.ogg" type="video/ogg" />
                 </video>
                 <h2>Contributing to Open Source Project</h2>
-                <p>50189 <strong>Views</strong>
-                   <span>
+                <p>
+                    5.1K <strong>Views</strong> ● June 02, 2020
+                    <span>
                         <i class="fa fa-thumbs-up">3.2M</i>
                         <i class="fa fa-thumbs-down">2K</i>
                         <i class="fa fa-share">9.5K</i>
-                   </span>
-                </p> 
-                <div>
-                    <i class="fa fa-user"></i> <b>The Odin Project</b>
+                    </span>
+                </p>
+                <hr>
+                <div class="subscribe">
+                    <h3><i class="fa fa-user"></i> The Odin Project</h3>
                     <span>
                         <button>Subscribe</button>
                         <button>799</button>
                     </span>
                 </div>
-                
-                <hr>
+
                 <ul>
                     <li><a href="#">Add to</a></li>
                     <li><a href="#">Share</a></li>
@@ -55,9 +64,7 @@
                 </ul>
             </div>
             <!-- COMMENTS GOES HERE-->
-            <div class="description_comment">
-
-            </div>
+            <div class="description_comment"></div>
         </section>
 
         <!-- SECTION ENDS HERE-->
@@ -67,35 +74,35 @@
             <article>
                 <a href="#"><img class="sidebar" src="img/laptop-mockup.jpg" alt="Laptop Mockup" width="150px" height="100" /> </a>
                 <div>
-                    <h4>Description of video</h4>    
-                    <p>2k Views ● 2 week ago</p>
-                </div>
-            </article>
-            <article>
-               <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a> 
-                <div>
-                    <h4>Description of video</h4>    
+                    <h4>Description of video</h4>
                     <p>2k Views ● 2 week ago</p>
                 </div>
             </article>
             <article>
                 <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a>
                 <div>
-                    <h4>Description of video</h4>    
-                    <p>2k Views ● 2 week ago</p>
-                </div>         
-            </article>
-            <article>
-                <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a>   
-                <div>
-                    <h4>Description of video</h4>    
+                    <h4>Description of video</h4>
                     <p>2k Views ● 2 week ago</p>
                 </div>
             </article>
             <article>
                 <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a>
                 <div>
-                    <h4>Description of video</h4>    
+                    <h4>Description of video</h4>
+                    <p>2k Views ● 2 week ago</p>
+                </div>
+            </article>
+            <article>
+                <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a>
+                <div>
+                    <h4>Description of video</h4>
+                    <p>2k Views ● 2 week ago</p>
+                </div>
+            </article>
+            <article>
+                <a href=""> <img class="sidebar" src="img/officeWork.jpg" alt="Office Work" width="150px" height="100" /></a>
+                <div>
+                    <h4>Description of video</h4>
                     <p>2k Views ● 2 week ago</p>
                 </div>
             </article>
@@ -103,9 +110,7 @@
         <!-- SIDE BAR ENDS HERE-->
 
         <!-- FOOTER STARTS HERE-->
-        <footer>
-
-        </footer>
+        <footer></footer>
         <!-- FOOTER ENDS HERE-->
     </body>
 </html>
