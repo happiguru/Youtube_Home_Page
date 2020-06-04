@@ -1,22 +1,21 @@
-# Youtube_Home_Page
-Microverse Collaborative Project (Stanley and Umair)
-# Project Name
 
-> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+# Youtube_Home_Page (Embedding Images and Video)
+
+> Microverse Collaborative Project (Stanley and Umair)
+
+![screenshot](img/YouTube_Home_Page.PNG)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://happiguru.github.io/Youtube_Home_Page/)
 
 
 ## Getting Started
@@ -29,37 +28,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
 
-### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Stanley Enow Lekunze**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/happiguru)
+- Twitter: [@twitterhandle](https://twitter.com/Lekunze_Nley)
+- Linkedin: [linkedin](https://www.linkedin.com/in/lekunze-nley/)
 
-👤 **Author2**
+👤 **Umair Arshad**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/umairarshadbutt)
+- Twitter: [@twitterhandle](https://twitter.com/its_UmairArshad)
+- Linkedin: [linkedin](https://www.linkedin.com/in/umair-arshad-butt/)
 
-## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
