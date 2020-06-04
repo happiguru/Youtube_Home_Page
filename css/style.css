@@ -198,3 +198,24 @@ iframe{
         margin-left: 15%;
     }
   }
+  @media screen and (max-width: 360px) and (min-width: 320px) {
+    aside {
+        width: auto;
+        margin-top: 150%;
+        margin-left: 15%;
+    }
+  }
+  @media screen and (max-width: 411px) and (min-width: 360px) {
+    aside {
+        width: auto;
+        margin-top: 124%;
+        margin-left: 15%;
+    }
+  }
+  @media screen and (max-width: 500px) and (min-width: 411px) {
+    aside {
+        width: auto;
+        margin-top: 97%;
+        margin-left: 15%;
+    }
+  }
