@@ -10,7 +10,6 @@ header {
     width: 100%;
     height: 33px;
     margin-top: 10px;
-    border: 1px solid black;
 }
 /* Article style*/
 article
@@ -37,6 +36,7 @@ article div {
     height: 33px;
     margin-right: 18px;
     width: 100px;
+    cursor: pointer;
 }
 
 .more {
@@ -64,7 +64,6 @@ aside
         margin-right: 10px;
         margin-left: 5px;
         margin-top: 30px;
-        border: 1px solid black;
     }
 /* span style*/
 span{
@@ -93,6 +92,7 @@ span{
     width: 100px;
     height: 31px;
     margin-left: -5px;
+    cursor: pointer;
 }
 /* search bar margin style*/
 .search_bar{
@@ -177,11 +177,22 @@ iframe{
   width: 100%;
   text-align: right;
 }
+.search_img{
+    display: none;
+}
 /* Responsive styling*/
-@media only screen and (max-width: 700px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 635px) {
+    .search_tab, .search_button{
+        display: none;
     }
+    .search_img{
+        display: inline;
+    }
+    .logo {
+        margin-left: 11px;
+    }
+}
+@media only screen and (max-width: 700px) {
     section {
         width: 100%;
         margin-left: 12px;
@@ -189,34 +200,56 @@ iframe{
     aside {
         width: auto;
         margin-top: 60%;
-        margin-left: 15%;
+        margin-left: 4%;
+    }
+    .search_tab {
+        width: 20%;
     }
   }
-  @media screen and (max-width: 925px) and (min-width: 700px) {
+  @media screen and (max-width: 1120px) and (min-width: 700px) {
     aside {
         width: auto;
         margin-top: 50%;
-        margin-left: 15%;
+        margin-left: 4%;
+    }
+    .search_tab {
+        width: 30%;
+    }
+    iframe{
+        width: 147%;
     }
   }
   @media screen and (max-width: 360px) and (min-width: 320px) {
     aside {
         width: auto;
-        margin-top: 150%;
-        margin-left: 15%;
+        margin-top: 164%;
+        margin-left: 4%;
+    }
+    .logo {
+        margin-left: 0px;
+    }
+    .logo_image {
+        margin-right: 0px;
+        cursor: pointer;
+    }
+    .hide_date{
+        display: none;
     }
   }
   @media screen and (max-width: 411px) and (min-width: 360px) {
     aside {
         width: auto;
-        margin-top: 124%;
-        margin-left: 15%;
+        margin-top: 141%;
+        margin-left: 4%;
+    }
+    .hide_date{
+        display: none;
     }
   }
   @media screen and (max-width: 500px) and (min-width: 411px) {
     aside {
         width: auto;
-        margin-top: 97%;
-        margin-left: 15%;
+        margin-top: 116%;
+        margin-left: 4%;
     }
   }
