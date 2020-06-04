@@ -13,7 +13,8 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://happiguru.github.io/Youtube_Home_Page/)
+[Live Demo Link - Happi](https://happiguru.github.io/Youtube_Home_Page/)
+[Live Demo Link - Umair](https://umairarshadbutt.github.io/Youtube_Home_Page/)
 
 
 ## Getting Started
