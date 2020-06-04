@@ -1,7 +1,6 @@
-
 /* Body style*/
 body {
-    background: #ffffff;
+    background: #FFFFFF;
     height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -11,9 +10,10 @@ header {
     width: 100%;
     height: 33px;
     margin-top: 10px;
+    border: 1px solid black;
 }
 /* Article style*/
-article 
+article
     {
         display: inline-flex;
         margin: 10px 2px 0px 2px;
@@ -21,7 +21,6 @@ article
 article div {
     padding-left: 10px;
 }
-
 /* like and dislike style*/
 .fa {
     margin-left: 10px;
@@ -33,18 +32,21 @@ article div {
     overflow: auto;
     margin-left: 60px;
 }
-
 /* logo size style*/
 .logo_image{
     height: 33px;
-    margin-right: 28px;
+    margin-right: 18px;
     width: 100px;
+}
+
+.more {
+    margin-bottom: 6px;
+    margin-left: -5px;
 }
 /* navbar width style*/
 .navbar {
     width: 100%;
 }
-
 /* section style*/
 section{
     width: 60%;
@@ -54,7 +56,7 @@ section{
     margin-top: 40px;
 }
 /* aside style*/
-aside 
+aside
     {
         display: inline-block;
         width: 30%;
@@ -76,7 +78,6 @@ span{
     margin-right: 4px;
     margin-top: 6px;
 }
-
 /* Search tab dimension style*/
 .search_tab{
     width: 55%;
@@ -97,11 +98,9 @@ span{
 .search_bar{
     margin-right: 40px;
 }
-
 /* Subscribe button position style*/
 .subscribe{
     position: relative;
-
 }
 .subscribe h3 {
     margin-left: 50px;
@@ -119,10 +118,13 @@ span{
     background: red;
     color: white;
 }
-
 /* User avatar style*/
 .avatar {
-    height: 21px;
+    height: 18px;
+    cursor: pointer;
+}
+.user-icon_1 {
+    height: 18px;
     cursor: pointer;
 }
 /* video style*/
@@ -159,7 +161,6 @@ iframe{
 .vid-info p span{
     margin-left: 0%;
 }
-
 /* styling left and right style*/
 .left{
     position: absolute;
