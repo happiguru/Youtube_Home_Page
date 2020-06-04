@@ -77,6 +77,10 @@ span{
     margin-right: 4px;
     margin-top: 6px;
 }
+.submit_button img{
+    height: 18px;
+    cursor: pointer;
+}
 /* Search tab dimension style*/
 .search_tab{
     width: 55%;
@@ -117,11 +121,6 @@ span{
 .subscribenow {
     background: red;
     color: white;
-}
-/* User avatar style*/
-.avatar {
-    height: 18px;
-    cursor: pointer;
 }
 .user-icon_1 {
     height: 18px;
