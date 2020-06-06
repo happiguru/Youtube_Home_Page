@@ -119,6 +119,9 @@ span{
     margin-top: 19px;
 }
 .subscribenow {
+    height: 30px;
+    font-size: 18px;
+    border-radius: 7px;
     background: red;
     color: white;
 }
